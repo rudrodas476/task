@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+#header{
+    height: 20%;
+    width: 100%;
+    background-color: rgb(26, 35, 53);
+    color: white;
+     text-align: center;
+
+}
+
+#header > h1{
+    font-size: 45px;
+    text-transform: uppercase;
+   
+}
+
+#header> p {
+    font-size: 15px;
+   color: rgba(255, 255, 255, 0.822);
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#about{
+    
+    height: 30%;
+    width: 90%;
+    background-color: white;
+    text-align: center;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 28px;
+    color: rgba(51, 51, 51, 0.884);
+}
+
+
+.container{
+    width: 90%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+#edu{
+    height: 35%;
+    background-color: rgb(116, 186, 226);
+}
+
+#skills{
+    height: 45%;
+    background-color: rgb(233, 207, 124);
+    
+}
+
+.box{
+    height: 60px;
+    width: 70%;
+    background-color: white;
+    text-align: center;
+
+}
+
+.box> p{
+    font-size: 22px;
+
+}
